@@ -1,0 +1,49 @@
+/* style for the table */
+table#myPortfolio {
+	border-width: 0 0 1px 1px;
+	border-collapse: collapse;
+	border-style: solid;	
+}
+	table, td{
+		border:1px solid black;
+	}
+
+	#myPortfolio td {
+		padding: 12px;
+	}
+
+.price {
+	
+	color: #006400;
+}
+
+a{
+    display: block;
+    height: 25px;
+    width: 100px;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font: bold 12px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+
+a:hover {
+	background: #000000;
+}  
+
+
+a.buy {
+	background: #009900;
+}
+
+
+a.sell{
+	background: #FF0000;
+}
+
+
+
+

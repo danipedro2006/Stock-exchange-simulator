@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock Simulator</title>
+
+<link href="simulator.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="span10">
+				<h1>Stocks you can invest in:</h1>
+				
+				<table class="table" id="myPortfolio">
+					<thead>
+					<tr> 
+						<td> Stock Name </td>
+						<td> Symbol </td>
+						<td> Price </td>
+						<td> Shares You Own </td>
+						<td> Buy </td>
+						<td> Sell </td> 
+					</tr>
+					</thead>
+					<tbody>
+					</tbody>
+
+				</table>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span10">
+				<h1>Total Cash Flow & Portfolio Value: <span id="netWorth">1000</span></h1>
+				<h1>Cash Flow: <span id="cashflow">1000</span></h1>
+				<h1>Portfolio Value: <span id="portfolio">0</span></h1>
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="simulator.js"></script>
+
+</body>
+</html>
