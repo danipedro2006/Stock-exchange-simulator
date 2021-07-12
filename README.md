@@ -14,8 +14,12 @@
 ## General info
 You start out with $1000 and 5 Companies to buy. The price of the Companies changes every second and gets updated on the page in real time. You can see your portfolio value, your cash flow and your total net worth in real time too.
 
+##Screenshot
+![Stock trading simulator](https://pure-everglades-37580.herokuapp.com)   
+
 ## Demo
-[Click me](https://pure-everglades-37580.herokuapp.com) 
+[Click me](https://pure-everglades-37580.herokuapp.com)   
+To run the simulator in the browswer first allow JavaScript in security settings.
 
 ## Technologies
 * JavaScript 
